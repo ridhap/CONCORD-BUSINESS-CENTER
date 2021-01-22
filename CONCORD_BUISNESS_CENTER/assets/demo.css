@@ -1,0 +1,168 @@
+/*@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');*/
+
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+	background-color: #efefef;
+}
+
+body{
+	/*font:14px/1.5 Arial, Helvetica, sans-serif;*/
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 1.5;
+	margin:0;
+}
+
+
+header{
+    box-sizing: border-box;
+	text-align: center;
+    width: 100%;
+    padding: 5px 30px;
+    background-color: #AAF0D1;
+    overflow: hidden;
+}
+
+
+header h1{
+    float: left;
+    font-family: Raleway;
+    font-size: 28px;
+    /*line-height: 1;*/
+	color: #fff;
+}
+
+
+
+/*header a{
+    color:#fff;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 50px;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 1;
+    /*font: bold 14px/1 'Open Sans', sans-serif;*/
+    /*
+    text-transform: uppercase;
+    background-color: black;
+
+}*/
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    float: right;
+    background-color: #0FDDAF;
+    padding: 5px 10px;
+    border-radius: 3px;
+    opacity: 0.8;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    /*line-height: 1;*/
+    margin-top: 25px;
+    
+    outline: none;
+    opacity: 0.7;
+    text-transform: uppercase;
+
+    transition: 0.2s ease;
+}
+
+header a:hover {
+    opacity: 0.7;
+    background-color: #49E9BD;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    /*border-bottom: 1px solid #EAEAEA;*/
+    background-color: #FFF;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: left;
+    background-color: black;
+    padding: 10px 16px;
+    border-radius: 2px;
+    opacity: 0.8;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+
+    transition: 0.2s ease;
+}
+
+ul li a.active{
+    background-color: #fff;
+    pointer-events: none;
+}
+
+ul li a:hover {
+    opacity: 0.5;
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+
+@media (max-width: 1000px) {
+
+
+    header h1{
+        float: none;
+    }
+
+    header a{
+        margin-top: 25px;
+        float: none;
+    }
+
+}
+
+.main-content{
+    margin-top: 55px;
+    margin-bottom: 75px;
+    float: center;
+}
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+	#bsaHolder{ display:none;}
+}
+
+/* -- Link to Tutorialzine -- */
+
+.tz-link{
+	text-decoration: none;
+	color: #fff !important;
+	font: bold 36px Arial,Helvetica,sans-serif !important;
+}
+
+.tz-link span{
+	color: #da431c;
+}

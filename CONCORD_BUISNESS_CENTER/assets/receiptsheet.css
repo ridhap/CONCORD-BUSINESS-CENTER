@@ -1,0 +1,99 @@
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+#footer {
+		background-color: #f7f7f7;
+		color: #444;
+		/* padding: 5em 0 4em 0;*/
+		padding: 2em 0 1.5em 0;
+		position: relative;
+		text-align: center;
+	}
+
+
+#footer input, #footer select, #footer textarea {
+			color: #555;
+		}
+
+		#footer a {
+			color: #fff;
+			font-size: 0.5em;
+			font-weight: bold;
+
+    		background-color: #AAF0D1;
+			padding: 5px 10px;
+    		border-radius: 3px;
+			text-decoration: none;
+			text-align: center;
+
+			margin-left: 5px;
+
+		    text-transform: uppercase;
+		}
+
+		#footer a:hover {
+			opacity: 0.7;
+		    background-color: #49E9BD;
+		    color: black;
+			font-weight: bold;
+			text-align: center;
+
+			transition: 0.2s ease;
+		}
+
+		#footer strong, #footer b {
+			color: #555;
+		}
+
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+			color: #bbb;
+			font-size: 0.8em;
+			margin: 0 0 0.2em 0;
+			padding: 0;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		#footer blockquote {
+			border-left-color: #ddd;
+		}
+
+		#footer code {
+			background: #fff;
+			border-color: #ddd;
+		}
+
+		#footer hr {
+			border-bottom-color: #ddd;
+		}
+
+		#footer:before {
+			background-color: #ddd;
+			content: '';
+			height: 1px;
+			left: 30%;
+			position: absolute;
+			top: 0;
+			width: 40%;
+		}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 0.9em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: center;
+			text-transform: uppercase;
+		}
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
